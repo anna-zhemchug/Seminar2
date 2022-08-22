@@ -1,12 +1,11 @@
-﻿// Задача 13
-Console.Write("Введите число: ");
+﻿// Задача 15
+Console.Write("Введите цифру, обозначающую день недели: ");
 int A = int.Parse(Console.ReadLine());
-if (A < 99)
+if (A == 6 || A == 7)
 {
-    Console.WriteLine("Третьей цифры нет");
+    Console.WriteLine("Да");
 }
-if (A >= 100)
+else
 {
-    string array = A.ToString();
-    Console.WriteLine(array[2]);
+    Console.WriteLine("Нет");
 }
