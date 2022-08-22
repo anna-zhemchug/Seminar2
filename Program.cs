@@ -1,6 +1,11 @@
-﻿// Задача 10
-Console.Write("Введите трёхзначное число: ");
+﻿// Задача 15
+Console.Write("Введите цифру, обозначающую день недели: ");
 int A = int.Parse(Console.ReadLine());
-int B = A % 100;
-int C = B / 10;
-Console.WriteLine($"Вторая цифра: {C}");
+if (A == 6 || A == 7)
+{
+    Console.WriteLine("Да");
+}
+else
+{
+    Console.WriteLine("Нет");
+}
